@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - InovaTech Solutions</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="social-links">
+            <a href="https://www.facebook.com/InovaTech-Solutions-102188462211813" target="_blank"><img src="img/logo-facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/InovaTechSol" target="_blank"><img src="img/logo-twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/inovatechsolutions/" target="_blank"><img src="img/logo-insta.png" alt="Instagram"></a>
+        </div>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h1>Entre em Contato Conosco</h1>
+            <p>Preencha o formulário abaixo e entraremos em contato com você assim que possível.</p>
+            <form action="/submit-contact-form" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
